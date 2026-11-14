@@ -1,0 +1,20 @@
+{
+  "artifact": "pqwerai-autoinstall-linux-amd64",
+  "version": "0.1.0-lab",
+  "target": "linux/amd64",
+  "sha256": "d86b7a26f66e3dfccc0147f4422ba6f0e188d49832811900dfbd53d2bec6b805",
+  "upstream_source": "46edb3109264a344e7a2f8d18d036c8273c35793",
+  "core_payload_included": false,
+  "automatic_downloads": false,
+  "allowed_role": "lab",
+  "public_core_activation": "BLOCKED",
+  "build_toolchain": "go version go1.27.3 windows/amd64",
+  "qualification": "Local author tests; private source-backed kit required; not an independently audited ecosystem release",
+  "private_source_commit": "3bff8ad195e4435521514dbe7322ad2ebbd4294c",
+  "private_source_repository": "peppez07/PQWERAI-Autoinstall-Private",
+  "validation": {
+    "source_clone_and_rebuild": "PASS",
+    "compiled_launcher_fresh_engine": "PASS",
+    "public_scope": "Compiled independent launcher only; no Core payload/source"
+  }
+}

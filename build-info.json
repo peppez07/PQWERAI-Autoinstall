@@ -16,5 +16,16 @@
     "source_clone_and_rebuild": "PASS",
     "compiled_launcher_fresh_engine": "PASS",
     "public_scope": "Compiled independent launcher only; no Core payload/source"
+  },
+  "development_snapshot": {
+    "upstream_repository": "peppez07/PQWERAI-testnet",
+    "upstream_revision": "183115ef8fc2546efa32c944103714c230312458",
+    "private_repository": "peppez07/PQWERAI-Autoinstall-Private",
+    "source_wallet_candidate": "0.8.8",
+    "published_wallet_release": "0.8.7",
+    "qualified_runtime_revision": "46edb3109264a344e7a2f8d18d036c8273c35793",
+    "runtime_requalified_for_development_snapshot": false,
+    "launcher_binary_changed": false,
+    "scope": "Catalog metadata only. This is not a new installer, Core or ecosystem release."
   }
 }

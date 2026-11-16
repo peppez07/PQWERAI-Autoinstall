@@ -27,3 +27,17 @@ The full private kit uses the existing PQWERAI dashboard and Docker Compose. Coo
 Validation is local author verification on Windows/Docker with Ubuntu 24.04 userland and an empty isolated Docker engine. Independent VPS/systemd/ACME, cross-NAT relay traffic and multi-GPU inference remain unverified. See `build-info.json` and the private repository's evidence for exact versions and results. This is not an independently audited public blockchain release.
 
 The required Go notices are in `LICENSES/`. No new license is asserted for private historical/component code. Public Core/helper distribution remains withheld pending corresponding-source/license and security acceptance. The public repository is intentionally not a public source offer for those payloads.
+
+## Current package status — 16 November 2026
+
+The full private development snapshot now follows upstream `183115ef8fc2546efa32c944103714c230312458` (including the
+CR-0047 PATE Phase 3 author security review). Wallet source is **0.8.8 candidate**;
+the published unsigned test-network prerelease is [wallet 0.8.7](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.7).
+Wallet payloads are not mirrored here.
+
+This repository's launcher remains **0.1.0-lab**, SHA-256 `d86b7a26f66e3dfccc0147f4422ba6f0e188d49832811900dfbd53d2bec6b805`.
+The qualified private offline kit remains **46edb31**. New source commits do not
+upgrade that kit or prove it compatible with all new features. Selected-Core build,
+integration, security and distribution gates remain separate; public node activation
+is still blocked. Existing checksum, required notices and original build provenance
+are retained. See `build-info.json` for the distinct build and development-snapshot pins.

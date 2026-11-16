@@ -28,16 +28,16 @@ Validation is local author verification on Windows/Docker with Ubuntu 24.04 user
 
 The required Go notices are in `LICENSES/`. No new license is asserted for private historical/component code. Public Core/helper distribution remains withheld pending corresponding-source/license and security acceptance. The public repository is intentionally not a public source offer for those payloads.
 
-## Current package status — 16 November 2026
+## Current package status
 
-The full private development snapshot now follows upstream `183115ef8fc2546efa32c944103714c230312458` (including the
-CR-0047 PATE Phase 3 author security review). Wallet source is **0.8.8 candidate**;
-the published unsigned test-network prerelease is [wallet 0.8.7](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.7).
-Wallet payloads are not mirrored here.
+Private development source follows upstream `cac57037ff8172ba9db13456534e4aa60f8b2ee0`. Its wallet source version is
+**0.8.8**; published [wallet 0.8.8](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.8)
+is an unsigned test-network prerelease with verified publisher checksums. Wallet
+payloads are not mirrored here. A shared version number is not proof that the
+published binary includes every subsequent source commit.
 
-This repository's launcher remains **0.1.0-lab**, SHA-256 `d86b7a26f66e3dfccc0147f4422ba6f0e188d49832811900dfbd53d2bec6b805`.
-The qualified private offline kit remains **46edb31**. New source commits do not
-upgrade that kit or prove it compatible with all new features. Selected-Core build,
-integration, security and distribution gates remain separate; public node activation
-is still blocked. Existing checksum, required notices and original build provenance
-are retained. See `build-info.json` for the distinct build and development-snapshot pins.
+Launcher **0.1.0-lab** and SHA-256 `d86b7a26f66e3dfccc0147f4422ba6f0e188d49832811900dfbd53d2bec6b805` are unchanged. The
+qualified private offline kit remains **46edb31**. This metadata update is not a new
+installer or ecosystem release. New Core/security changes require separate build,
+integration and acceptance; public node activation remains blocked. Original build
+provenance, checksum and required notices are retained in their existing files.

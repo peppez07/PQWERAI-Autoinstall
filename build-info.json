@@ -19,14 +19,15 @@
   },
   "development_snapshot": {
     "upstream_repository": "peppez07/PQWERAI-testnet",
-    "upstream_revision": "cac57037ff8172ba9db13456534e4aa60f8b2ee0",
+    "upstream_revision": "8abd5e929b4d31cba529ff4e1ab5479a2b042227",
     "private_repository": "peppez07/PQWERAI-Autoinstall-Private",
-    "source_wallet_candidate": "0.8.8",
-    "published_wallet_release": "0.8.8",
+    "source_wallet_candidate": "0.8.9",
+    "published_wallet_release": "0.8.9",
     "qualified_runtime_revision": "46edb3109264a344e7a2f8d18d036c8273c35793",
     "runtime_requalified_for_development_snapshot": false,
     "launcher_binary_changed": false,
     "scope": "Catalog metadata only. This is not a new installer, Core or ecosystem release.",
-    "source_release_equivalence_claimed": false
+    "source_release_equivalence_claimed": false,
+    "current_network_runtime_compatibility": "NOT_QUALIFIED_FOR_POST_FORK_20777"
   }
 }

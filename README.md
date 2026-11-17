@@ -30,8 +30,8 @@ The required Go notices are in `LICENSES/`. No new license is asserted for priva
 
 ## Current package status
 
-Private development source follows upstream `8abd5e929b4d31cba529ff4e1ab5479a2b042227`. Its wallet source version is
-**0.8.9**; published [wallet 0.8.9](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.9)
+Private development source follows upstream `bca987978b8c130a8fe230d505bb2750abd0a3f0`. Its wallet source version is
+**0.8.10**; published [wallet 0.8.10](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.10)
 is an unsigned test-network prerelease with verified publisher checksums. Wallet
 payloads are not mirrored here. A shared version number is not proof that the
 published binary includes every subsequent source commit.
@@ -45,3 +45,5 @@ provenance, checksum and required notices are retained in their existing files.
 The frozen kit predates upstream's recorded `ipfs-reward/v1` activation on chain 20777
 at block 34785. **Do not use it as an installer for synchronizing the current public
 testnet.** It remains a historical lab fixture pending a new network-compatible kit.
+
+Il catalogo privato include un candidato Core 12127fc testato con installazione locale isolata e sei servizi sani. Payload e sorgenti restano privati; la sync da VPS pubblici non è qualificata e l’attivazione pubblica resta bloccata. Il launcher pubblicato conserva lo stesso hash/versione.

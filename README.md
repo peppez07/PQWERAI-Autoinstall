@@ -30,8 +30,8 @@ The required Go notices are in `LICENSES/`. No new license is asserted for priva
 
 ## Current package status
 
-Private development source follows upstream `d243f90164292ebc9cb1c70f3ca0caa68b195678`. Its wallet source version is
-**0.8.10**; published [wallet 0.8.10](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.10)
+Private development source follows upstream `afca314b838b1ac42adcd2392499f5996931c4c6`. Its wallet source version is
+**0.8.11**; published [wallet 0.8.11](https://github.com/peppez07/pqwerai-wallet-releases/releases/tag/v0.8.11)
 is an unsigned test-network prerelease with verified publisher checksums. Wallet
 payloads are not mirrored here. A shared version number is not proof that the
 published binary includes every subsequent source commit.
@@ -46,4 +46,4 @@ The frozen kit predates upstream's recorded `ipfs-reward/v1` activation on chain
 at block 34785. **Do not use it as an installer for synchronizing the current public
 testnet.** It remains a historical lab fixture pending a new network-compatible kit.
 
-Il candidato privato wrapper d243f90/Core12127fc ha superato una nuova prova Docker locale con sei servizi sani e verifica degli header HSTS/nosniff RPC. Kit e sorgenti restano privati. Il launcher pubblico è invariato; sync pubblica, validator enrollment e accettazione release restano non qualificati/bloccati.
+Il candidato privato wrapper afca314/Core12127fc ha superato una nuova prova Docker locale con sei servizi sani e verifica degli header HSTS/nosniff RPC. Kit e sorgenti restano privati. Il launcher pubblico è invariato; sync pubblica, validator enrollment e accettazione release restano non qualificati/bloccati.

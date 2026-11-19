@@ -19,10 +19,10 @@
   },
   "development_snapshot": {
     "upstream_repository": "peppez07/PQWERAI-testnet",
-    "upstream_revision": "f1235e3ea8ada9b3cb69530b5565a49e3fe0b1e3",
+    "upstream_revision": "83d37fb93468a55195c9c0c506ef45332c2b9648",
     "private_repository": "peppez07/PQWERAI-Autoinstall-Private",
-    "source_wallet_candidate": "0.8.14",
-    "published_wallet_release": "0.8.14",
+    "source_wallet_candidate": "0.8.15",
+    "published_wallet_release": "0.8.15",
     "qualified_runtime_revision": "46edb3109264a344e7a2f8d18d036c8273c35793",
     "runtime_requalified_for_development_snapshot": false,
     "launcher_binary_changed": false,
@@ -32,7 +32,7 @@
     "runtime_candidate": {
       "status": "PASS_LOCAL_ISOLATED_INSTALL",
       "core_source": "f31a83ce59f2d4ef0360552ae3ef0b9ffa5e86e2",
-      "wrapper_source": "f1235e3ea8ada9b3cb69530b5565a49e3fe0b1e3",
+      "wrapper_source": "83d37fb93468a55195c9c0c506ef45332c2b9648",
       "network_ready": false,
       "public_activation": false,
       "rpc_security_headers": "PASS_GET_POST_OPTIONS_ERRORS"

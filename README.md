@@ -46,4 +46,4 @@ The frozen kit predates upstream's recorded `ipfs-reward/v1` activation on chain
 at block 34785. **Do not use it as an installer for synchronizing the current public
 testnet.** It remains a historical lab fixture pending a new network-compatible kit.
 
-Il candidato privato `ffc6600`/Core12127fc conserva la prova Docker locale con sei servizi sani e header HSTS/nosniff. La base documentale `29c0c76` ha input runtime identici; kit e source archive non vengono ricostruiti o rinominati. Payload e sorgenti restano privati. Nessuna nuova qualifica VPS/sync pubblica.
+Il candidato privato `ffc6600`/Core f31a83ce5 conserva la prova Docker locale con sei servizi sani e header HSTS/nosniff. La base documentale `29c0c76` ha input runtime identici; kit e source archive non vengono ricostruiti o rinominati. Payload e sorgenti restano privati. Nessuna nuova qualifica VPS/sync pubblica.

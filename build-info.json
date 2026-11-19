@@ -19,7 +19,7 @@
   },
   "development_snapshot": {
     "upstream_repository": "peppez07/PQWERAI-testnet",
-    "upstream_revision": "012f839ee5ad20ddc860b74492e94f7fa94dac74",
+    "upstream_revision": "1bf413ccef6c9bdfe658e44ebbae6e58a505fc50",
     "private_repository": "peppez07/PQWERAI-Autoinstall-Private",
     "source_wallet_candidate": "0.8.13",
     "published_wallet_release": "0.8.13",
@@ -35,7 +35,14 @@
       "wrapper_source": "012f839ee5ad20ddc860b74492e94f7fa94dac74",
       "network_ready": false,
       "public_activation": false,
-      "rpc_security_headers": "PASS_GET_POST_OPTIONS_ERRORS"
+      "rpc_security_headers": "PASS_GET_POST_OPTIONS_ERRORS",
+      "source_applicability": {
+        "status": "PASS_UNCHANGED_RUNTIME_INPUTS",
+        "qualified_kit_wrapper": "012f839ee5ad20ddc860b74492e94f7fa94dac74",
+        "current_source": "1bf413ccef6c9bdfe658e44ebbae6e58a505fc50",
+        "docker_rerun": false,
+        "kit_rebuilt": false
+      }
     }
   }
 }
